@@ -1,0 +1,47 @@
+(function(){
+	var app=angular.module('storeproducts',[]);
+
+app.directive('productTitle',function(){
+			return{
+				restrict: 'E',
+				templateUrl:'product-title.html',
+			}
+		});
+		app.directive('reviewFull',function(){
+			return{
+				restrict:'E',
+				templateUrl:'review-full.html',
+			}
+		});
+		app.directive('tabS',function(){
+			return{
+				restrict:'E',
+				templateUrl:'tab-s.html',
+			}
+		});
+		app.directive('productDescription',function(){
+			return{
+				templateUrl:'product-description.html',
+			}
+		});
+		app.directive('productSpecification',function(){
+			return{
+				templateUrl:'product-specification.html',
+			}
+		});
+		app.directive('imageCart',function(){
+			return{
+			templateUrl:'image-cart.html',
+		}});
+		app.directive('productPanels',function(){
+			return{
+			restrict:'E',
+			templateUrl:'product-panels.html',
+		}
+		});
+		app.directive('loginForm',function(){
+			return{
+				templateUrl:'login-form.html',
+			}
+		});
+})();

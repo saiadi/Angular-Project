@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="store">
+<head><title>online market</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script type="text/javascript" src="angular.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="storeproducts.js"> </script>
+<script type="text/javascript" src="jquery-3.1.0.js"></script>
+</head>
+<body style="background-color:grey;" ng-controller="StoreController as store">
+<h1 align="center" style="color:balck;"><i	>F.R.I.E.N.D.S   MART</i></h1>
+<login-form ></login-form>
+<ul class="list-group"style="color:black;">
+<li  class="list-group-item" ng-repeat="product in store.products">
+<h3>
+<product-title></product-title>
+</h3>
+<image-cart></image-cart>
+<product-panels ng-controller="panelController as panel" >
+</product-panels>
+</li>
+</ul>
+</body>
+</html>

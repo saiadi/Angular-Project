@@ -1,0 +1,64 @@
+var gems=[{
+		name:'Blue dimond',
+		price:'10000',
+		description:'The most costliest dimond in the world',
+		canPurchase:true,
+		soldOut:false,
+		images:[{
+		full:'blue.jpg'},
+		],
+		reviews:[{
+		stars:'',
+		body:'',
+		author:'',
+		color:'',}
+		]
+		
+		
+	},
+	{
+		name:'Red dimond',
+		price:'7000',
+		description:'The 2nd costliest dimond in the world',
+		canPurchase:true,
+		soldOut:false,
+		images:[{
+		full:'red.jpg'},
+		],
+		reviews:[{
+		stars:'',
+		body:'',
+		author:'',
+		color:'',},]
+	},
+	{
+		name:'Green dimond',
+		price:'6500',
+		description:'The 3rd costliest dimond in the world',
+		canPurchase:true,
+		soldOut:false,
+		images:[{
+		full:'green.jpg'},
+		],
+		reviews:[{
+		stars:'',
+		body:'',
+		author:'',
+		color:'',},]
+	},
+	{
+		name:'black dimond',
+		price:'6000',
+		description:'The 4th costliest dimond in the world',
+		canPurchase:true,
+		soldOut:false,
+		images:[{
+		full:'black.jpg'},
+		],
+		reviews:[{
+		stars:'',
+		body:'',
+		author:'',
+		color:'',},]
+	},
+	]
